@@ -71,6 +71,7 @@ Store Tom & Jerry’s mass and height as variables. Calculate both their BMI’s
 variable containing information about whether Tom has a higher BMI than Jerry. Print a string to the
 console with the variable from step 3 ( e.g. Is Tom’s BMI higher than Jerry’s? false).
 
+
 let massTom = 8;
 let heighTom = 9;
 let massJerry = 45;
@@ -80,6 +81,9 @@ let BMITom = massTom / heighTom ** 2;
 let BMIJerry = massJerry / heighJerry ** 2;
 let higherBMI = BMITom > BMIJerry;
 
-console.log(BMITom, BMIJerry, higherBMI);
+console.log( " Is " + BMITom > BMIJerry ) ;
 
 */
+
+
+
