@@ -1,10 +1,14 @@
 /*
 //VERY EASY: Write a function named min that takes two arguments and returns their minimum.
 
-function minFunc(p1, p2) {
-    return p1;
+function min( firstNum, anotherNum) {
+    if ( firstNum < anotherNum) {
+    return firstNum;
+} else {
+    return anotherNum;
 }
-console.log(minFunc(7,9));
+}
+console.log(min(7,9));
 
 //EASY: Create an array of students holding their last name, first name, and age with 3 students. To
 validate, please log a greeting with the first name, last name and age of the 2nd student. The output
@@ -84,6 +88,7 @@ let higherBMI = BMITom > BMIJerry;
 console.log( " Is " + BMITom > BMIJerry ) ;
 
 */
+
 
 
 
